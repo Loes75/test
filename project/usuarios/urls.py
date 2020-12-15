@@ -1,5 +1,5 @@
 from django.urls import path
-from .api import UsuarioCreate,UsuarioList,UsuarioUpdate,UsuarioDelete,UsuarioGeoCode
+from .views import UsuarioCreate,UsuarioList,UsuarioUpdate,UsuarioDelete,UsuarioGeoCode
 
 urlpatterns=[
     path('crear',UsuarioCreate.as_view()),
